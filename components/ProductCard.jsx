@@ -15,7 +15,7 @@ const ProductCard = ({children, product, ...props}) => {
           <div className="card-actions">
             <form action="/api/checkout" method="POST">
               <input type="hidden" name="uid" value={uid} />
-              <button class="btn btn-primary max-w-fit">Buy Now</button>
+              <button class="btn btn-primary w-full">Buy Now</button>
             </form>
           </div>
         </div>
